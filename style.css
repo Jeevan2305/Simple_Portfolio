@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  line-height: 1.2;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-size: 16px;
+  background-color: #333;
+  color: #fafafa;
+  font-family: sans-serif;
+}
+
+.zero {
+  background-color: rgb(226, 19, 19);
+  text-align: center;
+  padding: 60px 20px;
+  margin-bottom: 20px;
+}
+
+.project-section {
+  padding: 10px;
+}
+
+.project {
+  display: inline-block;
+  padding: 7px;
+  margin-right: 5px;
+  border: 1px solid #fafafa;
+  border-radius: 5px;
+  background-color: #222;
+}
+
+.project img {
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.project .date {
+  margin-top: 5px;
+  color: #ddd;
+  font-size: 12px;
+  text-align: right;
+}
